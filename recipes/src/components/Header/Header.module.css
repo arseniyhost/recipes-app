@@ -1,0 +1,51 @@
+.header {
+    height: 10vh;
+    width: 100%;
+    background: rgb(121, 204, 125);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px 0 100px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    transition: .4s all;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+.menu {
+    display: flex;
+}
+
+.menuLogin {
+    margin-left: 100px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li a {
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+a.active {
+    color: rgb(68, 142, 216);
+}
+
+
+.menu ul li a:hover {
+    color: rgb(68, 142, 216);
+}
+
+.menu div ul li a:last-child {
+    margin-right: 0px;
+}

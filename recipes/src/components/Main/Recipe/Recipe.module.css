@@ -1,0 +1,95 @@
+.itemRecipes img {
+    width: 550px;
+    height: auto;
+}
+
+.partBrief h2 {
+    color: #000;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+
+.itemRecipes .information h3 {
+    color: #222222;
+}
+
+.itemRecipes .information .description p {
+    margin-left: 20px;
+}
+
+.itemRecipes {
+    line-height: 1.5;
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemRecipes .information {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.itemRecipes .information .description {
+    margin-bottom: 10px;
+}
+
+.itemRecipes .information .description p {
+    text-indent: 20px;
+}
+
+.itemRecipes .information ul {
+    margin-left: 50px;
+}
+
+.partBrief {
+    margin-bottom: 30px;
+}
+
+.partBrief .titleRecipe {
+    font-size: 3em;
+    color: rgb(57, 57, 192);
+    margin-bottom: 20px;
+}
+
+.photoIns img {
+    height: auto;
+    border-radius: 3px;
+    width: 450px;
+}
+
+.photoIns {
+    margin: 20px 0px;
+}
+
+.instructions, .instructions .boxStep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructions h3 {
+    font-size: 22px;
+}
+
+.thank p{
+    color: rgb(41, 150, 41);
+    font-size: 18px;
+}
+
+.boxStep .step {
+    font-weight: bold;
+}

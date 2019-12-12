@@ -1,0 +1,79 @@
+.recipes h3{
+    font-size: 2em;
+}
+
+.elementRecipe {
+    margin-bottom: 50px;
+}
+
+.elementRecipe h3 {
+    margin-top: 10px;
+}
+
+.elementRecipe a {
+    color: #3F51B5;
+}
+
+.elementRecipe:last-child {
+    margin-bottom: 0px;
+}
+
+.elementRecipe div img {
+    width: 550px;
+    margin-top: 10px;
+    height: auto;
+    border: 2px solid #fff;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.elementRecipe div p {
+    font-size: 18px;
+}
+
+.search {
+    margin-bottom: 50px;
+}
+
+.search input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    width: 600px;
+    font-size: 16px;
+}
+
+.btnCategories button {
+    border: none;
+    background: rgb(48, 204, 34);
+    cursor: pointer;
+    color: #fff;
+    transition: .4s all;
+}
+
+.btnCategories button:focus, .btnCategories button:hover, .btnCategories button:active {
+    background: rgb(23, 110, 16);
+}
+
+.btnCategories {
+    display: flex;
+    justify-content: center;
+}
+
+.containerButtons .btnCategories:last-child {
+    margin-left: 30px;
+}
+
+.containerButtons .btnCategories:last-child button {
+    background: rgb(247, 82, 82);
+}
+
+.containerButtons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.containerButtons .MuiBox-root {
+    margin: 0px;
+    padding: 0px;
+}

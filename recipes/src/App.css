@@ -1,0 +1,15 @@
+.wrapper-container {
+    text-align: center;
+}
+
+main {
+    padding: 40px 0;
+}
+
+main h2 {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
